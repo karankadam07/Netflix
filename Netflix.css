@@ -1,0 +1,345 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+.background{
+    margin: 0px;
+    
+}
+/* Background Image*/
+
+header{
+    height: 700px;
+    width: 100%;
+    background-image: url("background.jpg");
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+}
+
+.logo_1{
+    height: 100px;
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 900px;
+}
+
+img{
+    height: 120px;
+}
+
+i{
+    color: white;
+}
+
+select{
+    height: 40px;
+    width: 130px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+select:hover{
+    background-color: rgba(0, 0, 0, 0.54);
+    cursor: pointer;
+}
+
+.sign_in{
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    padding: 6px 10px 6px 10px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    text-align: center;
+    margin: 30px;
+    font-weight: bolder;
+}
+
+/*First page*/
+
+.first_page{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 25px;
+    margin-top: 7px;
+    padding: 3px;
+}
+
+.email_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input{
+    height: 25px;
+    width: 400px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.363);
+    font-size: 18px;
+    border: 1px solid gainsboro;
+    color: white;
+    border-radius: 3px;
+}
+
+button{
+    padding: 13px;
+    margin-left: 15px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px
+}
+
+button:hover{
+    background-color: rgb(156, 0, 0);
+    cursor: pointer;
+}
+
+/*Second page*/
+
+.second_page{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+
+hr{
+    height: 8px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+}
+
+.inform_1{
+    height: 600px;
+    width: 50%;
+    color: white;
+    padding: 200px 0px 0px 150px;
+}
+
+.img_1{
+    height: 300px;
+    width: 50%;
+    background-image: url("img_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+/* Third page*/
+
+.third_page{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+
+.img_2{
+    height: 400px;
+    width: 30%;
+    background-image: url("img_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 80px 0px 0px 200px;
+}
+
+.inform_2{
+    height: 600px;
+    width: 50%;
+    color: white;
+    padding: 150px 0px 0px 10px;
+}
+
+/* Fourth page*/
+
+.fourth_page{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+
+.img_3{
+    height: 500px;
+    width: 40%;
+    background-image: url("img_3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 40px 70px 0px 10px;
+}
+
+.inform_3{
+    height: 600px; 
+    width: 50%;
+    color: white;
+    padding: 190px 0px 0px 150px;
+}
+
+/* Fifth page*/
+
+.fifth_page{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+
+.img_4{
+    height: 500px;
+    width: 40%;
+    background-image: url("img_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 30px 0px 0px 200px;
+}
+
+.inform_4{
+    height: 600px;
+    width: 50%;
+    color: white;
+    padding: 180px 0px 0px 10px;
+}
+
+/* Sixth page*/
+
+.asked_questions{
+    height: 900px;
+    width: 100%;
+    background-color: black ;
+}
+
+.heading{
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 60px;
+    width: 70%;
+    background-color: rgb(59, 56, 56);
+    margin: 5px;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0px 10px 20px;
+}
+
+.plus{
+    display: flex;
+    justify-items: right;
+}
+
+.Email{
+    height: 10px;
+    width: 90%;
+    background-color: black;
+    padding: 50px;
+}
+
+.e-mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* Footer*/
+
+.big_div{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+h6{
+    font-size: 15px;
+    color: gainsboro;
+    padding: 100px 20px 10px 150px;
+
+}
+
+u:hover{
+    cursor: pointer;
+}
+
+/* List div*/
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 90%;
+}
+
+li{
+    color: white;
+    list-style: none;
+    text-decoration: underline;
+    padding: 8px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.Languages{
+    height: 45px;
+    width: 130px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 150px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+h5{
+    color: white;
+    font-size: 15px;
+    padding: 20px 0px 10px 150px;
+    font-weight: normal;
+}
